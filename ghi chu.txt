@@ -1,0 +1,110 @@
+- boxicon
+----------------------
+-root:
+Bộ :root chọn CSS được sử dụng để nhắm mục tiêu phần tử gốc của tài liệu HTML, đó là phần htmltử. Nó thường được sử dụng để xác định các biến CSS toàn cục hoặc các thuộc tính tùy chỉnh có thể được sử dụng xuyên suốt tài liệu.
+- kiểu dạng đặt biến trong css.
+
+----------------------
+- box-sizing :
+Thuộc box-sizing tính CSS được sử dụng để kiểm soát cách tính chiều rộng và chiều cao của phần tử, có tính đến thuộc tính đệm và đường viền. Theo mặc định, box-sizing thuộc tính được đặt thành content-box, nghĩa là chiều rộng và chiều cao của phần tử không bao gồm phần đệm hoặc đường viền.
+
+Dưới đây là hai giá trị có thể có cho box-sizingthuộc tính:
+
+content-box: Đây là giá trị mặc định. Điều đó có nghĩa là chiều rộng và chiều cao của một phần tử chỉ bao gồm nội dung và không bao gồm phần đệm, đường viền hoặc lề.
+
+border-box: Giá trị này bao gồm phần đệm và đường viền trong tổng chiều rộng và chiều cao của phần tử. Điều này có nghĩa là nếu bạn đặt các thuộc tính widthvà heightthành một giá trị nhất định, phần tử sẽ có kích thước chính xác đó, bao gồm mọi phần đệm hoặc đường viền mà bạn đã xác định.
+
+Thuộc box-sizingtính hữu ích khi bạn muốn kiểm soát kích thước của một phần tử bao gồm cả phần đệm và đường viền của nó hoặc khi bạn muốn đảm bảo rằng một phần tử có kích thước cố định vẫn giữ nguyên kích thước bất kể phần đệm và đường viền của nó.
+
+---------------------
+-list-style:
+
+Thuộc list-style tính CSS được sử dụng để đặt kiểu và hình thức của một điểm đánh dấu danh sách, chẳng hạn như những điểm đánh dấu được sử dụng trong danh sách không có thứ tự ( <ul>) và danh sách có thứ tự ( <ol>).
+
+Dưới đây là các giá trị có thể có cho list-stylethuộc tính:
+
+none: Giá trị này loại bỏ hoàn toàn điểm đánh dấu danh sách, làm cho danh sách xuất hiện dưới dạng một khối văn bản đơn giản.
+
+disc: Đây là giá trị mặc định cho danh sách không có thứ tự. Nó hiển thị một vòng tròn đầy dưới dạng điểm đánh dấu danh sách.
+
+circle: Giá trị này hiển thị một vòng tròn trống làm điểm đánh dấu danh sách.
+
+square: Giá trị này hiển thị một hình vuông được điền dưới dạng điểm đánh dấu danh sách.
+
+decimal: Đây là giá trị mặc định cho danh sách có thứ tự. Nó hiển thị các chữ số Ả Rập làm điểm đánh dấu danh sách.
+
+decimal-leading-zero: Giá trị này hiển thị các chữ số Ả Rập có số 0 đứng đầu làm điểm đánh dấu danh sách.
+
+lower-roman: Giá trị này hiển thị chữ số La Mã viết thường làm điểm đánh dấu danh sách.
+
+upper-roman: Giá trị này hiển thị chữ số La Mã viết hoa làm điểm đánh dấu danh sách.
+
+lower-alpha: Giá trị này hiển thị các chữ cái viết thường làm điểm đánh dấu danh sách.
+
+upper-alpha: Giá trị này hiển thị các chữ cái viết hoa dưới dạng điểm đánh dấu danh sách.
+
+-------------------
+- <section>:
+Phần tử HTML <section> là một phần tử ngữ nghĩa được sử dụng để nhóm các nội dung có liên quan lại với nhau trên một trang web. Nó thường được sử dụng để chia một trang thành các phần khác nhau, chẳng hạn như các chương hoặc chủ đề và có thể cải thiện khả năng đọc và tổ chức của một trang web.
+
+
+--------------------
+-object-fit: 
+
+object-fit là một thuộc tính CSS chỉ định cách thay đổi kích thước một phần tử (chẳng hạn như phần tử <img>hoặc <video>phần tử) để vừa với hộp chứa của nó.
+
+Thuộc object-fittính có thể được đặt thành một trong các giá trị sau:
+
+fill: Giá trị này kéo dài nội dung để lấp đầy hộp chứa, đồng thời duy trì tỷ lệ khung hình của nó. Điều này có thể dẫn đến việc cắt xén hoặc biến dạng nội dung.
+
+contain: Giá trị này chia tỷ lệ nội dung để vừa với hộp chứa, đồng thời duy trì tỷ lệ khung hình của nó. Toàn bộ nội dung được hiển thị, không cắt xén.
+
+cover: Giá trị này chia tỷ lệ nội dung để bao phủ toàn bộ hộp chứa, đồng thời duy trì tỷ lệ khung hình của nó. Điều này có thể dẫn đến việc cắt xén một số nội dung.
+
+none: Giá trị này hiển thị nội dung ở kích thước ban đầu, không có bất kỳ tỷ lệ hoặc cắt xén nào.
+
+scale-down: Giá trị này chia tỷ lệ nội dung xuống để vừa với hộp chứa, nếu nội dung đó lớn hơn hộp chứa. Nếu nội dung nhỏ hơn hộp chứa, nó sẽ được hiển thị ở kích thước ban đầu.
+
+-------------------
+
+ transform: translate -> tao hieu ung dong, di chuyen vat the css.
+
+-------------------
+-ease-in-out và infinite :
+
+ease-in-out và infinite là hai thuộc tính CSS khác nhau.
+
+ease-in-outlà một giá trị cho transition-timing-functionthuộc tính trong CSS, chỉ định đường cong tốc độ của hiệu ứng chuyển tiếp giữa hai trạng thái của một phần tử. ease-in-outcó nghĩa là quá trình chuyển đổi bắt đầu chậm, tăng tốc ở giữa và sau đó lại chậm lại ở cuối.
+
+infinitelà một giá trị cho animation-iteration-countthuộc tính trong CSS, chỉ định số lần hoạt ảnh sẽ được phát. infinitecó nghĩa là hoạt ảnh sẽ được lặp lại vô thời hạn.
+
+Khi hai thuộc tính này được kết hợp, như thế này:
+
+css:
+animation: my-animation 2s ease-in-out infinite;
+
+Điều đó có nghĩa là hoạt ảnh my-animationsẽ được phát trong 2 giây, với hiệu ứng nới lỏng bắt đầu chậm, tăng tốc ở giữa và sau đó chậm lại ở cuối. Hoạt hình sau đó sẽ lặp lại vô thời hạn, vì giá infinitetrị.
+
+Đây là cách phổ biến để tạo hiệu ứng hoạt hình mượt mà, liên tục, không dừng lại chỉ sau một lần lặp lại.
+
+-------------------
+
+scrollrevealjs:
+
+ScrollReveal.jslà một thư viện JavaScript cho phép hoạt hình dựa trên cuộn dễ dàng trên các trang web. Nó cho phép các nhà phát triển tạo các hoạt ảnh hấp dẫn và tương tác tiết lộ nội dung khi người dùng cuộn xuống trang.
+
+ScrollReveal.js cung cấp một API đơn giản có thể được sử dụng để xác định phần tử nào sẽ được tạo hoạt ảnh và cách chúng sẽ được tạo hoạt ảnh. Thư viện có thể được tùy chỉnh để kiểm soát thời gian, thời lượng và giảm bớt hoạt ảnh.
+
+-------------------
+
+ distance, durationv à reset là các thuộc tính của thư viện ScrollReveal.js, đây là thư viện JavaScript cho phép hoạt ảnh dựa trên cuộn dễ dàng trên các trang web.
+
+distance: Thuộc tính này kiểm soát khoảng cách mà một phần tử di chuyển hoặc thay đổi khi nó được tiết lộ. Giá trị có thể được chỉ định bằng pixel hoặc theo tỷ lệ phần trăm của chiều cao hoặc chiều rộng của chế độ xem.
+
+duration: Thuộc tính này kiểm soát thời gian cần thiết để một phần tử được hiển thị hoặc ẩn đi. Giá trị có thể được chỉ định bằng mili giây hoặc dưới dạng chuỗi, chẳng hạn như "2s" hoặc "500ms".
+
+reset: Thuộc tính này kiểm soát xem hoạt ảnh có được đặt lại hay không khi một phần tử được cuộn ra khỏi chế độ xem rồi quay lại chế độ xem. Theo mặc định, thuộc tính này được đặt thành false, có nghĩa là hoạt ảnh không được đặt lại. Tuy nhiên, nếu nó được đặt thành true, hoạt ảnh sẽ được đặt lại mỗi khi phần tử xuất hiện.
+
+
+
+
